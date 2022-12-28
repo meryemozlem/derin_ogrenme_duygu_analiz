@@ -34,11 +34,11 @@ os.environ['KAGGLE_CONFIG_DIR']= "/content/drive/MyDrive/Colab_Notebooks/input"
 
 !kaggle kernels pull oykuer/emotion-detection-using-cnn
 
-!ls
+#!ls
 
 !unzip \*.zip && rm *.zip
 
-!ls
+#!ls
 
 #ilk 5 eğitim içeriğini gördüm.
 data=pd.read_csv('/content/drive/MyDrive/Colab_Notebooks/input/fer2013.csv')
@@ -375,7 +375,7 @@ import cv2
 
 x_test_private = test_images[5].reshape(-1, 48, 48, 1)
 
-!ls '/content/drive/MyDrive/Udemy_DerinOgrenmeyeGiris/Evrisimli_Sinir_Aglari/Duygu_Tanima/images'
+#!ls '/content/drive/MyDrive/Udemy_DerinOgrenmeyeGiris/Evrisimli_Sinir_Aglari/Duygu_Tanima/images'
 
 image_path = "/content/drive/MyDrive/Udemy_DerinOgrenmeyeGiris/Evrisimli_Sinir_Aglari/Duygu_Tanima/images/brando.png"
 import keras.utils as image
