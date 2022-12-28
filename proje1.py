@@ -13,7 +13,7 @@ veriseti denk gelirse yas ve cinsiyet türevlerine bakılacak.
 import pandas as pd
 import os
 
-from google.colab import drive
+#from google.colab import drive
 drive.mount('/content/drive')
 
 #!ls
