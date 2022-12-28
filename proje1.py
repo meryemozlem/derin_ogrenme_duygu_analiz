@@ -42,7 +42,7 @@ import os
 
 #ilk 5 eğitim içeriğini gördüm.
 #data=pd.read_csv('/content/drive/MyDrive/Colab_Notebooks/input/fer2013.csv')
-print("Number of Labels:", data.emotion.max() + 1)
+deg_a=print("Number of Labels:", data.emotion.max() + 1)
 pd.set_option('max_colwidth',100)
 data.head(5)
 
