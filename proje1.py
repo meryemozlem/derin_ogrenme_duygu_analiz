@@ -14,7 +14,7 @@ import pandas as pd
 import os
 
 #from google.colab import drive
-drive.mount('/content/drive')
+#drive.mount('/content/drive')
 
 #!ls
 
@@ -23,7 +23,7 @@ drive.mount('/content/drive')
 %cd ile input dizini içindeyim.
 """
 
-os.environ['KAGGLE_CONFIG_DIR']= "/content/drive/MyDrive/Colab_Notebooks/input"
+#os.environ['KAGGLE_CONFIG_DIR']= "/content/drive/MyDrive/Colab_Notebooks/input"
 
 # Commented out IPython magic to ensure Python compatibility.
 # %cd "/content/drive/MyDrive/Colab_Notebooks/input"
