@@ -16,7 +16,7 @@ import os
 from google.colab import drive
 drive.mount('/content/drive')
 
-!ls
+#!ls
 
 """Kaggle Config dizini ortama tanımlandı. Amaç bilgisayara indirmeden verisetini colab da kullanmak.
 
