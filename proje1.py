@@ -28,7 +28,7 @@ os.environ['KAGGLE_CONFIG_DIR']= "/content/drive/MyDrive/Colab_Notebooks/input"
 # Commented out IPython magic to ensure Python compatibility.
 # %cd "/content/drive/MyDrive/Colab_Notebooks/input"
 
-!pwd
+#!pwd
 
 !kaggle datasets download -d deadskull7/fer2013
 
