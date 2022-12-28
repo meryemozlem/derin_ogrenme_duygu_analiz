@@ -30,13 +30,13 @@ os.environ['KAGGLE_CONFIG_DIR']= "/content/drive/MyDrive/Colab_Notebooks/input"
 
 #!pwd
 
-!kaggle datasets download -d deadskull7/fer2013
+#!kaggle datasets download -d deadskull7/fer2013
 
-!kaggle kernels pull oykuer/emotion-detection-using-cnn
+#!kaggle kernels pull oykuer/emotion-detection-using-cnn
 
 #!ls
 
-!unzip \*.zip && rm *.zip
+#!unzip \*.zip && rm *.zip
 
 #!ls
 
