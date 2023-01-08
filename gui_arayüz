@@ -1,0 +1,129 @@
+#oluşturulan tkinter arayüzünün kodları:
+
+import tkinter as tk
+from tkinter import ttk
+from PIL import ImageTk, Image
+from tkinter import filedialog
+import numpy as np
+import tensorflow
+from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.preprocessing import image
+
+CLASS_LABELS = ['Kızgın',
+                'İğrenmiş',
+                'Korkmuş',
+                'Mutlu',
+                'Nötr',
+                'Üzgün',
+                "Şaşkın",
+                ]
+
+COLORS = ['#9b5de5',
+          '#f15bb5',
+          '#f8a07b',
+          '#fee440',
+          '#7fd09d',
+          '#00bbf9',
+          '#00f5d4',
+          ]
+
+
+def decode_predictions(predictions):
+    return sorted(list(zip(CLASS_LABELS, predictions[0])), key=lambda x: x[1], reverse=True)
+
+
+def load_img():
+
+    global img, image_data
+    for img_display in frame.winfo_children():
+        img_display.destroy()
+
+    image_data = filedialog.askopenfilename(initialdir="/", title="Choose an image",
+                                            filetypes=(("all files", "*.*"), ("png files", "*.png")))
+    basewidth = 150
+    img = Image.open(image_data)
+    wpercent = (basewidth / float(img.size[0]))
+    hsize = int((float(img.size[1]) * float(wpercent)))
+    img = img.resize((basewidth, hsize), Image.ANTIALIAS)
+    img = ImageTk.PhotoImage(img)
+    file_name = image_data.split('/')
+
+    panel = tk.Label(frame,
+                     text=str(
+                         file_name[-1]),
+                     width=150)
+    # panel.pack()
+    panel.grid(row=0, column=0, columnspan=2)
+
+    panel_image = tk.Label(frame, image=img)
+    # panel_image.pack()
+    panel_image.grid(row=1, column=0, columnspan=2)
+
+    classify()
+
+
+def classify():
+
+    # Preprocessing
+    original = Image.open(image_data).convert('L')
+    original = original.resize((48, 48), Image.ANTIALIAS)
+    img_rgb = original.convert('RGB')
+    img_arr = image.img_to_array(img_rgb)
+    img_batch = np.expand_dims(img_arr, axis=0)
+    img_preprocessed = img_batch.astype(np.float32) / 255.0
+
+    # Predicting
+    predictions = model.predict(img_preprocessed)
+
+    label = decode_predictions(predictions)
+    table = tk.Label(
+        frame, text="Tahminler", font="bold", bg='#181818', fg='#f9f6ee')
+    # table.pack()
+    table.grid(row=2, column=0, columnspan=2)
+
+    for i in range(0, len(label)):
+        result_label = tk.Label(frame,
+                                text=str(label[i][0]),
+                                bg="#181818",
+                                fg=COLORS[i],  # "#f9f6ee",
+                                font="bold",
+                                )
+        result_prediction = tk.Label(frame,
+                                     text=str(
+                                         round(float(label[i][1])*100, 2)) + '%',
+                                     bg="#181818",
+                                     fg=COLORS[i],  # "#f9f6ee",
+                                     font="bold",
+                                     )
+        result_label.grid(row=i+3, column=0, sticky='ew')
+        result_prediction.grid(row=i+3, column=1, sticky='ew')
+
+        frame.grid_columnconfigure((0, 1), weight=1)
+        # result.pack()
+
+
+root = tk.Tk()
+root.title('IMAGE CLASSIFIER')
+root.configure(background='#181818')
+root.resizable(False, False)
+
+canvas = tk.Canvas(root, height=600, width=600,
+                   bg='#181818', highlightthickness=0)
+canvas.grid(row=0, column=0)
+# canvas.pack()
+
+frame = tk.Frame(root,
+                 bg='#181818',
+                 highlightbackground='#f9f6ee',
+                 highlightthickness=3)  # 2e74b7
+frame.place(relwidth=0.8, relheight=0.8, relx=0.1, rely=0.1)
+
+chose_image = tk.Button(root, text='Choose Image',
+                        padx=35, pady=10, font='bold', borderwidth=0,
+                        fg="#f9f6ee", bg="#181818", command=load_img,
+                        )
+chose_image.grid(row=1, column=0)
+
+model = tensorflow.keras.models.load_model('checkpoint3.h5')
+
+root.mainloop()
