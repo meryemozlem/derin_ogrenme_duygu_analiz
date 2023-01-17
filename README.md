@@ -1,4 +1,6 @@
-# **DERİN ÖĞRENME İLE YÜZ GÖRÜNTÜLERİNDEN DUYGU ANALİZİNİ TESPİT EDEN PROGRAM VE TASARIMI Proje 1 Meryem Özlem AYDOĞAN **
+# **DERİN ÖĞRENME İLE YÜZ GÖRÜNTÜLERİNDEN DUYGU ANALİZİNİ TESPİT EDEN PROGRAM VE TASARIMI** 
+**Proje 1** 
+**Meryem Özlem AYDOĞAN**
 ~~Model içeriğinden:
 
 1.1 Projenin Amacı:
