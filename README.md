@@ -76,7 +76,8 @@ gerçekleştirilerek geliştirilen yeni model test edilmiştir. Model ile gerçe
 her bir veri setinde yedi farklı duygu sınıfı (korku, öfke, iğrenme, mutluluk, nötr, üzüntü, 
 şaşırma) ele alınmıştır.
 
-**Kaynak kodlar dosya içeriklerinde detaylıca ele alınmıştır.**
+**Kaynak kodlar dosya içeriklerinde detaylıca ele alınmıştır. Gerekli iyileştirmeler yapıldığında güncellenecektir.**
+Herhangi bir sorunuz veya projede gerekli gördüğünüz revizeler için iletişime geçebilirsiniz. 
 
 ![Ekran görüntüsü_20230108_163812](https://user-images.githubusercontent.com/82104183/211200059-776537e1-7a8b-434c-b2ca-6931b49e005e.png)
 ![Ekran görüntüsü_20230108_162921](https://user-images.githubusercontent.com/82104183/211200077-a1efb4dd-29cb-43fc-a1d3-ce288e6fc0e8.png)
