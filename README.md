@@ -80,6 +80,7 @@ her bir veri setinde yedi farklı duygu sınıfı (korku, öfke, iğrenme, mutlu
 Herhangi bir sorunuz veya projede gerekli gördüğünüz revizeler için iletişime geçebilirsiniz. Kendimi geliştirmek için her zaman açığım.
 
 
+
 ![Ekran görüntüsü_20230108_163812](https://user-images.githubusercontent.com/82104183/211200059-776537e1-7a8b-434c-b2ca-6931b49e005e.png)
 ![Ekran görüntüsü_20230108_162921](https://user-images.githubusercontent.com/82104183/211200077-a1efb4dd-29cb-43fc-a1d3-ce288e6fc0e8.png)
 ![Ekran görüntüsü_20230108_163507](https://user-images.githubusercontent.com/82104183/211200079-ca1fc55a-cc8e-424a-b98d-e03713c8e289.png)
