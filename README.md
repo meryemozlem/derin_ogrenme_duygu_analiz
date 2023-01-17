@@ -11,7 +11,7 @@ bir araştırma konusudur. Projede, kullanıcı tarafından belirlenen görselde
 öğrenme yöntemleri ile duygu analizinin yapılması amaçlanmıştır. Duygu analizi için derin 
 öğrenme algoritmalarında olan Convolutional Neural Networks (CNN) yapısı kullanılarak 
 sistem modeli geliştirilmiştir. Oluşturulan bu sistem modeli, veri kümesine uygulanmış ve 
-maksimum %69,17 doğruluk başarısını elde edilmiştir. Yapılan farklı deneyler sayesinde,
+maksimum doğruluk başarısını elde edilmiştir. Yapılan farklı deneyler sayesinde,
 karşılaştırma desteği sunulmuş, tahmin oranları ölçülmüş ve optimal olan değer aralıklarının 
 belirlenmesi esas alınmıştır.
 Projenin amacı, sürekli gelişim göstererek güncel olan araştırma konusu üzerinde çalışmak ve 
