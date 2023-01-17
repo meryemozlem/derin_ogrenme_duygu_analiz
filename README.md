@@ -77,7 +77,7 @@ her bir veri setinde yedi farklı duygu sınıfı (korku, öfke, iğrenme, mutlu
 şaşırma) ele alınmıştır.
 
 **Kaynak kodlar dosya içeriklerinde detaylıca ele alınmıştır. Gerekli iyileştirmeler yapıldığında güncellenecektir.**
-Herhangi bir sorunuz veya projede gerekli gördüğünüz revizeler için iletişime geçebilirsiniz. 
+Herhangi bir sorunuz veya projede gerekli gördüğünüz revizeler için iletişime geçebilirsiniz. Kendimi geliştirmek için her zaman açığım.
 
 
 ![Ekran görüntüsü_20230108_163812](https://user-images.githubusercontent.com/82104183/211200059-776537e1-7a8b-434c-b2ca-6931b49e005e.png)
