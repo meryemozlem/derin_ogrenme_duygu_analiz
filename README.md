@@ -27,10 +27,7 @@ sağlayacağının düşünülmesi derin öğrenme alanına popülerlik kazandı
 bilgisayarlı görü alanına da değinilmelidir. Bilgisayarlı görü, günümüzde yüz ve duygu 
 sınıflandırma alanlarında yaygın olarak kullanılmaktadır. Yüz tanıma, görüntü veya 
 videolardan elde edilen verilerdeki kişilerin otomatik olarak tanımlanması veya doğrulanması
-işlemidir. Yüz tanıma işlemlerinin dört temel aşaması vardır. Bu işlemler sırasıyla yüz
-algılama, normalleştirme, öznitelik çıkarma ve sınıflandırmadır. Normalleştirme ve 
-sınıflandırma algoritmaları yüz tanımada ne kadar başarılı olursa olsun, eğer özellik çıkarma 
-aşaması başarılı olmazsa o sistem istenilen başarıyı yakalayamamaktadır.
+işlemidir. 
 Proje kapsamı boyunca yapılan eklemeler sonucu revize edilen modelin başarı oranı ve 
 kullanılabilirliği doğru orantılı şekilde artış gösterdiği çizilen grafikler yardımıyla 
 gözlenmiştir. Öznitelik çıkarımı için derin öğrenme tekniklerinden biri olan ve yapay sinir 
