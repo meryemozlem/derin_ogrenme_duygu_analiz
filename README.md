@@ -1,7 +1,8 @@
 # **DERİN ÖĞRENME İLE YÜZ GÖRÜNTÜLERİNDEN DUYGU ANALİZİNİ TESPİT EDEN PROGRAM VE TASARIMI Proje 1 Meryem Özlem AYDOĞAN **
 ~~Model içeriğinden:
 
-1.1 Projenin Amacı
+1.1 Projenin Amacı:
+
 Derin öğrenme ile yüz görüntülerinden duygu analizini tespit eden program projesi; insanbilgisayar etkileşimi, duygusal hesaplama gibi birçok bilgisayarlı görü alanında uygulanabilen 
 bir araştırma konusudur. Projede, kullanıcı tarafından belirlenen görseldeki yüzün, derin 
 öğrenme yöntemleri ile duygu analizinin yapılması amaçlanmıştır. Duygu analizi için derin 
@@ -13,7 +14,8 @@ belirlenmesi esas alınmıştır.
 Projenin amacı, sürekli gelişim göstererek güncel olan araştırma konusu üzerinde çalışmak ve 
 gelişime farklı bakış açıları kazandırarak katkıda bulunmaktır.
 
-2.PROJE İÇERİĞİ VE KAPSAMI
+2.PROJE İÇERİĞİ VE KAPSAMI:
+
 Son zamanlarda yüz tanıma ve algılama sistemleri birçok ticari, askeri, güvenlik, sosyal ve 
 psikolojik uygulamalarda sıkça kullanılmaktadır. Yapılan analizler; insan yüzlerinin 
 hareketlerinin tanımlanmasını ve yorumlanmasını içermektedir. İnsanlar tarafından bile zor 
@@ -37,7 +39,8 @@ Değerlendirmeler yapılarak, iyi performans gösteren sınıflandırma algoritm
 zamanlı evrişimli sinir ağları mimarisi kullanılarak, yüz görsellerinden duygu sınıflandırması 
 işlemi eş zamanlı olarak gerçekleştiren proje ortaya çıkarılmıştır.
 
-3.1 Proje Kapsamında Kullanılan Teknolojiler, Platformlar ve Diller 
+3.1 Proje Kapsamında Kullanılan Teknolojiler, Platformlar ve Diller:
+
 Proje uygulamasının gelişimi, derin öğrenme yöntemi ile gerçekleştirilmiştir. Uygulama 
 modeli ise toplam 9 katmanlı sinir ağından oluşmaktadır. Uygulama, Google Colaboratory ve 
 Visual Studio Code platformlarında tasarlanmıştır. Colaboratory, derin öğrenme ve makine 
@@ -51,7 +54,8 @@ görselle birlikte grafiksel olarak gösterileceği arayüze bağlantı sağlama
 Modelin oluşturulması, kütüphanelerin kurulumu, eklenti desteklerinin sağlanması ve arayüz 
 bağlantılarının kurulması dahil her işlem Python programlama dili kullanılarak geliştirilmiştir.
 
-3.2 Altyapı, Donanım ve Yazılım Özellikleri
+3.2 Altyapı, Donanım ve Yazılım Özellikleri:
+
 Derin öğrenmenin yüksek başarımı için kaliteli bir veri setine ihtiyaç duyulmaktadır. Bu 
 sebeple, eğitim ve test performansının yüksek olarak ölçüldüğü veri setlerine bakılmalı ve 
 uygun olan set seçilmelidir. Çalışmada, fer2013 veri seti kullanılarak derin öğrenme ile duygu 
