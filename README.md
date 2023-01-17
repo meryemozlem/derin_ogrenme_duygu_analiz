@@ -13,7 +13,7 @@ belirlenmesi esas alınmıştır.
 Projenin amacı, sürekli gelişim göstererek güncel olan araştırma konusu üzerinde çalışmak ve 
 gelişime farklı bakış açıları kazandırarak katkıda bulunmaktır.
 
-2. PROJE İÇERİĞİ VE KAPSAMI
+2.PROJE İÇERİĞİ VE KAPSAMI
 Son zamanlarda yüz tanıma ve algılama sistemleri birçok ticari, askeri, güvenlik, sosyal ve 
 psikolojik uygulamalarda sıkça kullanılmaktadır. Yapılan analizler; insan yüzlerinin 
 hareketlerinin tanımlanmasını ve yorumlanmasını içermektedir. İnsanlar tarafından bile zor 
