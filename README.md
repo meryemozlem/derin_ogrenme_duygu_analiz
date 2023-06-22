@@ -2,82 +2,30 @@
 **Proje 1** 
 **Meryem Özlem AYDOĞAN**
 
-~~Model içeriğinden:
+~~From model content:
 
-1.1 Projenin Amacı:
+**1.1 Purpose of the Project:**
 
-Derin öğrenme ile yüz görüntülerinden duygu analizini tespit eden program projesi; insanbilgisayar etkileşimi, duygusal hesaplama gibi birçok bilgisayarlı görü alanında uygulanabilen 
-bir araştırma konusudur. Projede, kullanıcı tarafından belirlenen görseldeki yüzün, derin 
-öğrenme yöntemleri ile duygu analizinin yapılması amaçlanmıştır. Duygu analizi için derin 
-öğrenme algoritmalarında olan Convolutional Neural Networks (CNN) yapısı kullanılarak 
-sistem modeli geliştirilmiştir. Oluşturulan bu sistem modeli, veri kümesine uygulanmış ve 
-maksimum doğruluk başarısı elde edilmiştir. Yapılan farklı deneyler sayesinde,
-karşılaştırma desteği sunulmuş, tahmin oranları ölçülmüş ve optimal olan değer aralıklarının 
-belirlenmesi esas alınmıştır.
-Projenin amacı, sürekli gelişim göstererek güncel olan araştırma konusu üzerinde çalışmak ve 
-gelişime farklı bakış açıları kazandırarak katkıda bulunmaktır.
+The project of a program that detects emotion analysis from facial images with deep learning is a research topic that can be applied in many computer vision fields such as human�computer interaction and emotional computing. In the project, it is aimed to analyze the emotion of the face in the image specified by the user with deep learning methods. A system model was developed using Convolutional Neural Networks (CNN) structure, which is one of the deep learning algorithms for emotion analysis. This system model was applied to the dataset and maximum accuracy was achieved. Through different experiments, comparison support was provided, prediction rates were measured and the optimal value ranges were determined. The aim of the project is to work on the current research topic with continuous development and to contribute to the development by bringing different perspectives.
 
-2.PROJE İÇERİĞİ VE KAPSAMI:
 
-Son zamanlarda yüz tanıma ve algılama sistemleri birçok ticari, askeri, güvenlik, sosyal ve 
-psikolojik uygulamalarda sıkça kullanılmaktadır. Yapılan analizler; insan yüzlerinin 
-hareketlerinin tanımlanmasını ve yorumlanmasını içermektedir. İnsanlar tarafından bile zor 
-analiz edilebilen duygusal ifadeler bilgisayar ortamında test edilip belirlenmesinin kolaylık 
-sağlayacağının düşünülmesi derin öğrenme alanına popülerlik kazandırmıştır. Bu bağlamda 
-bilgisayarlı görü alanına da değinilmelidir. Bilgisayarlı görü, günümüzde yüz ve duygu 
-sınıflandırma alanlarında yaygın olarak kullanılmaktadır. Yüz tanıma, görüntü veya 
-videolardan elde edilen verilerdeki kişilerin otomatik olarak tanımlanması veya doğrulanması
-işlemidir. 
-Proje kapsamı boyunca yapılan eklemeler sonucu revize edilen modelin başarı oranı ve 
-kullanılabilirliği doğru orantılı şekilde artış gösterdiği çizilen grafikler yardımıyla 
-gözlenmiştir. Öznitelik çıkarımı için derin öğrenme tekniklerinden biri olan ve yapay sinir 
-ağları içeren bir yaklaşım olan Evrişimli Sinir Ağları (ESA-CNN) kullanılarak yeni bir model 
-geliştirilmiştir. 
-Model eğitimi için yaygın olarak kullanılan kombinasyonlar son çalışmalarda test edilmiş ve 
-sınıflandırma algoritmalarının gösterdikleri başarım sonuçlarına etkisi incelenmiştir. 
-Değerlendirmeler yapılarak, iyi performans gösteren sınıflandırma algoritması ve gerçek 
-zamanlı evrişimli sinir ağları mimarisi kullanılarak, yüz görsellerinden duygu sınıflandırması 
-işlemi eş zamanlı olarak gerçekleştiren proje ortaya çıkarılmıştır.
+**2.PROJECT CONTENT AND SCOPE:**
 
-3.1 Proje Kapsamında Kullanılan Teknolojiler, Platformlar ve Diller:
+Recently, face recognition and detection systems have been used in many commercial, military, security, social and are frequently used in psychological applications. Analyses have shown that human faces It involves the identification and interpretation of their movements. Difficult even for humans the ease of testing and determining emotional expressions that can be analyzed in a computer environment that it is thought to provide a new and innovative approach to deep learning has brought popularity to the field. In this context computer vision should also be mentioned. Computer vision is nowadays used for face and emotion classification is widely used in the fields of face recognition. Face recognition, image or automatic identification or verification of persons in data derived from videos process. As a result of the additions made throughout the project scope, the success rate of the revised model and with the help of the graphs drawn that the availability increases in direct proportion. observed. One of the deep learning techniques for feature extraction, artificial neural a new model using Convolutional Neural Networks (ESA-CNN), an approach involving networks have been developed. Commonly used combinations for model training have been tested in recent studies and The effect of the classification algorithms on the performance of the classification algorithms is analyzed. By making evaluations, the classification algorithm that performs well and the real emotion classification from facial images using a time convolutional neural network architecture The project that realizes the process simultaneously has been revealed.
 
-Proje uygulamasının gelişimi, derin öğrenme yöntemi ile gerçekleştirilmiştir. Uygulama 
-modeli ise toplam 9 katmanlı sinir ağından oluşmaktadır. Uygulama, Google Colaboratory ve 
-Visual Studio Code platformlarında tasarlanmıştır. Colaboratory, derin öğrenme ve makine 
-öğrenimi modellerinin GPU üzerinden geliştirilebildiği ücretsiz bulut servisidir. Modelin 
-eğitiminin hızlıca gerçekleştirilip çıktılar vermesi, içinde bulunan hazır Python kütüphaneleri
-sebebiyle ek indirmelere gerek duymaması ve kolay kullanım desteği sağladığı için 
-seçilmiştir. 
-Colaboratory üzerinde ise, Keras ve TensorFlow Python kütüphaneleri kullanılmıştır. 
-Visual Studio Code platformu ise modelin test edilip, doğruluk oran sonuçlarının seçilen 
-görselle birlikte grafiksel olarak gösterileceği arayüze bağlantı sağlaması için tercih edilmiştir.
-Modelin oluşturulması, kütüphanelerin kurulumu, eklenti desteklerinin sağlanması ve arayüz 
-bağlantılarının kurulması dahil her işlem Python programlama dili kullanılarak geliştirilmiştir.
+**3.1 Technologies, Platforms and Languages Used in the Project:**
 
-3.2 Altyapı, Donanım ve Yazılım Özellikleri:
+The development of the project application was carried out using deep learning. Application model consists of a total of 9 layered neural networks. The application is based on Google Colaboratory and Designed on Visual Studio Code platforms. Colaboratory, deep learning and machine is a free cloud service where learning models can be developed on GPU. The model training is realized quickly and gives outputs, and the ready-made Python libraries included because it does not require additional downloads and provides easy-to-use support was selected. Keras and TensorFlow Python libraries were used on Colaboratory. The Visual Studio Code platform was used to test the model and to obtain the accuracy rate results. It was preferred to provide a connection to the interface where it will be displayed graphically together with the visual. Creating the model, installing libraries, providing plugin support and interface including the establishment of connections, was developed using the Python programming language.
 
-Derin öğrenmenin yüksek başarımı için kaliteli bir veri setine ihtiyaç duyulmaktadır. Bu 
-sebeple, eğitim ve test performansının yüksek olarak ölçüldüğü veri setlerine bakılmalı ve 
-uygun olan set seçilmelidir. Çalışmada, fer2013 veri seti kullanılarak derin öğrenme ile duygu 
-tanımaya yönelik bir proje geliştirilmiştir. Fer2013 veri seti duygu tespit projesindeki ihtiyacı 
-karşılamaktadır. Fer2013 veri setinde toplam 35887 görüntü bulunmaktadır. Görüntülerin 
-28709 tanesi eğitim, 7178 tanesi ise Public ve Private testler için ayrılmıştır. Public testler 
-model bitirildikten sonraki başarım oranını test etmek için kullanılırken, Private testler ise veri 
-setindeki görsellerden bir kısmını "PrivateTest" olarak ayırır ve daha sonra test etmek için 
-kullanılır. Proje için kullanılan görsellerin teknik detayları bu veri seti sayesinde
-incelenebilmektedir. Böylece kolonlarda kullanılan veri setindeki örneklerin kaç gruba 
-ayrıldığı görülebilir ve set içindeki alanlara veri görselleştirilmesi uygulanabilmektedir.
-Kullanılan veri seti 35887 satır ve 3 kolondan oluşmaktadır. Bu veri setinde yedi duyguyu 
-tespit etmeye yönelik resimler bulunmaktadır. Bu duygular kızgın (4593 tane), iğrenme (547 
-tane), korku (5121 tane), mutlu (8989 tane), üzgün (6077 tane), şaşırma (4002 tane), nötr 
-(6198 tane) dur. Görsellerin yapısı fonksiyonlar yardımı ile 48x48 boyutunda ve gri tonlarında 
-olacak şekilde düzenlenmiştir. Model içeriğindeki görsellerle ayrı ayrı eğitim 
-gerçekleştirilerek geliştirilen yeni model test edilmiştir. Model ile gerçekleştirilen çalışmada, 
-her bir veri setinde yedi farklı duygu sınıfı (korku, öfke, iğrenme, mutluluk, nötr, üzüntü, 
-şaşırma) ele alınmıştır.
+**3.2 Infrastructure, Hardware and Software Features:**
+
+A high quality dataset is needed for high performance of deep learning. This Therefore, we should look for datasets where training and testing performance is measured to be high and the appropriate set should be selected. In this study, using the fer2013 dataset, we used deep learning with emotion a project has been developed for recognition. The Fer2013 dataset was used in the emotion detection project meets the requirements. The Fer2013 dataset contains a total of 35887 images. Images 28709 for training and 7178 for Public and Private tests. Public tests used to test the success rate after the model is finished, while Private tests are used to test the sets aside some of the images in the set as "PrivateTest" and then uses them to test is used. The technical details of the visuals used for the project are provided by this dataset. can be examined. Thus, it is possible to see how many groups the samples in the data set used in the columns and data visualization can be applied to the fields within the set. The dataset used consists of 35887 rows and 3 columns. In this data set, seven emotions There are pictures aimed at identifying emotions. These emotions are angry (4593), disgust (547) fear (5121), happy (8989), sad (6077), surprised (4002), neutral (6198 pieces). The structure of the images is calculated in 48x48 size and in shades of gray with the help of functions. is organized in such a way that it can be used as a training model. Separate training with the visuals in the model content and the new model developed was tested. In the study carried out with the model, seven different emotion classes (fear, anger, disgust, happiness, neutral, sadness, surprise) is addressed.
+
+
+**Source codes are discussed in detail in the file contents. It will be updated when necessary improvements are made. You can contact for any questions or revisions you deem necessary in the project. I am always open to improve myself.**
 
 **Kaynak kodlar dosya içeriklerinde detaylıca ele alınmıştır. Gerekli iyileştirmeler yapıldığında güncellenecektir.**
-Herhangi bir sorunuz veya projede gerekli gördüğünüz revizeler için iletişime geçebilirsiniz. Kendimi geliştirmek için her zaman açığım.
+**Herhangi bir sorunuz veya projede gerekli gördüğünüz revizeler için iletişime geçebilirsiniz. Kendimi geliştirmek için her zaman açığım.**
 
 
 
