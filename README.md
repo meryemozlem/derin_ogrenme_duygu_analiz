@@ -4,7 +4,7 @@
 
 ~~From model content:
 
-**1.1 Purpose of the Project:**
+**1.1 Purpose of the Project:** 
 
 The project of a program that detects emotion analysis from facial images with deep learning is a research topic that can be applied in many computer vision fields such as human�computer interaction and emotional computing. In the project, it is aimed to analyze the emotion of the face in the image specified by the user with deep learning methods. A system model was developed using Convolutional Neural Networks (CNN) structure, which is one of the deep learning algorithms for emotion analysis. This system model was applied to the dataset and maximum accuracy was achieved. Through different experiments, comparison support was provided, prediction rates were measured and the optimal value ranges were determined. The aim of the project is to work on the current research topic with continuous development and to contribute to the development by bringing different perspectives.
 
